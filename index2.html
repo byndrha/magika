@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width: device-width, initial-scale=1.0" />
+    <title>Vapi SDK Example | Jannis Moore</title>
+    <style>
+      body {
+        font-family: monospace;
+        background: rgb(2, 0, 36);
+        background-image: linear-gradient(
+          140deg,
+          hsl(0deg 0% 0%) 0%,
+          hsl(221deg 100% 9%) 72%,
+          hsl(216deg 83% 12%) 100%
+        );
+        min-height: 100vh;
+        overflow: hidden;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+<script>
+// Membuat elemen Eleven Labs
+const elevenLabsElement = document.createElement('elevenlabs-convai');
+elevenLabsElement.setAttribute('agent-id', 'onUTPP5tnAq5dKXHDsjA');
+
+// Menambahkan elemen ke body dokumen
+document.body.appendChild(elevenLabsElement);
+
+// Menyisipkan skrip JavaScript
+const scriptElement = document.createElement('script');
+scriptElement.src = 'index.js';
+scriptElement.async = true;
+scriptElement.type = 'text/javascript';
+
+// Menambahkan skrip ke body dokumen
+document.body.appendChild(scriptElement);
+</script>
+    <script>
+      var vapiInstance = null;
+      const assistant = "991d0405-a756-4aea-a457-ad314d9694f5"; // Substitute with your assistant ID
+      const apiKey = "0d9f522e-e252-4d3e-963c-2758ad11c0bc"; // Substitute with your Public key from Vapi Dashboard.
+      const buttonConfig = {}; // Modify this as required
+
+      var sheet = window.document.styleSheets[0];
+      sheet.insertRule('.vapi-btn { left: 90% !important; bottom: 100px !important; }', sheet.cssRules.length);
+
+      (function (d, t) {
+        var g = document.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        g.src =
+          "https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g, s);
+
+        g.onload = function () {
+          vapiInstance = window.vapiSDK.run({
+            apiKey: apiKey, // mandatory
+            assistant: assistant, // mandatory
+            config: buttonConfig, // optional
+          });
+        };
+      })(document, "script");
+    </script>
+  </body>
+</html>
