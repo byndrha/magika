@@ -1,1 +1,27 @@
-https://github.com/byndrha/magika/releases/download/v1.2.1/com.byndrha.magika_v1.2.1.apk
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Redirect Unduh Berkas</title>
+    <meta http-equiv="refresh" content="5;url=https://github.com/byndrha/magika/releases/download/v1.2.1/com.byndrha.magika_v1.2.1.apk"> <!-- Redirect setelah 5 detik -->
+</head>
+<body>
+    <h1>Terima kasih telah mengunjungi halaman ini!</h1>
+    <p>Anda akan diarahkan untuk mengunduh berkas dalam <span id="countdown">5</span> detik.</p>
+    <p>Jika tidak diarahkan secara otomatis, klik <a href="https://github.com/byndrha/magika/releases/download/v1.2.1/com.byndrha.magika_v1.2.1.apk" download>di sini</a> untuk mengunduh berkas.</p>
+
+    <script>
+        // Menghitung mundur
+        let countdown = 3;
+        const countdownElement = document.getElementById('countdown');
+        const interval = setInterval(() => {
+            countdown--;
+            countdownElement.textContent = countdown;
+            if (countdown <= 0) {
+                clearInterval(interval);
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
