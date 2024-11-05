@@ -1,0 +1,898 @@
+@keyframes fade-in {
+  0% {opacity: 0}
+  50% {opacity: 0}
+  100% {opacity: 1}
+}
+
+body{
+    animation-name: fade-in;
+  animation-duration: 3s;
+}
+button[type="button"][aria-haspopup="menu"]{
+  color: red;
+}
+
+div[cmdk-list-sizer] div[cmdk-group-items] div[cmdk-item]:nth-of-type(1){
+  font-size: 0px;
+}
+div[cmdk-list-sizer] div[cmdk-group-items] div[cmdk-item]:nth-of-type(1)::after{
+  font-size: .875rem;
+  content: "Magika v2";
+}
+div[cmdk-list-sizer] div[cmdk-group-items] div[cmdk-item]:nth-of-type(5){
+  font-size: 0px;
+}
+div[cmdk-list-sizer] div[cmdk-group-items] div[cmdk-item]:nth-of-type(5)::after{
+  font-size: .875rem;
+  content: "Magika Definitif";
+}
+
+
+button.inline-flex.items-center.justify-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors span.hidden.sm\:block.md\:flex{
+  font-size: 0rem;
+  padding-top: 5px;
+}
+button.inline-flex.items-center.justify-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors span.hidden.sm\:block.md\:flex::after{
+  font-size: .875rem;
+  content: 'Masuk dulu yuk';
+}
+button.inline-flex.items-center.justify-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors span.sm\:hidden{
+  font-size: 0rem;
+  padding-top: 5px;
+}
+
+div.\@textarea-container.z-10.flex div.mb-6.flex.flex-col.items-center.gap-2{
+  display: none;
+}
+div.pt-4.blackbox-chat-area div.relative.left-0 div.mx-auto.px-4 div.h-full.mt-8.w-full.flex.justify-center.items-center div.\@textarea-container.z-10.flex{
+  color: blue;
+  display: none;
+}
+
+textarea::placeholder{
+  color: #ed143d00 !important;
+}
+
+h1.mb-2.text-lg.font-semibold {
+  font-size: 0;
+  visibility: hidden;
+  }
+h1.mb-2.text-lg.font-semibold::after{
+  content:'Hai, Aku Magika';
+  font-size: 1.125rem;
+  visibility: visible;
+}
+
+div.flex.flex-col.justify-center.items-center.mt-8 p.mb-2.leading-normal.text-muted-foreground.text-sm.text-center {
+  font-size: 0;
+  visibility: hidden;
+}
+
+div.flex.flex-col.justify-center.items-center.mt-8 p.mb-2.leading-normal.text-muted-foreground.text-sm.text-center::after{
+  content:'butuh bantuan apa?';
+  font-size: .875rem;
+  visibility: visible;
+}
+
+div.flex.flex-col.justify-center.items-center.mt-8 button.inline-flex.items-center.justify-center.text-sm.font-medium{
+  display: none;
+}
+
+button#create-group-chat{
+  display: flex;
+}
+button#create-group-chat span{
+  font-size: 0rem;
+}
+
+button#create-group-chat span::after{
+  font-size: .875rem;
+  content: 'Buat Grup Percakapan';
+}
+
+div button.mobile-hide-item {
+  display: none;
+}
+
+div.flex.items-center.justify-end.space-x-2 button:nth-of-type(1){
+  display: none;
+}
+div.flex.items-center.justify-end.space-x-2 button:nth-of-type(2) span{
+  font-size: 0rem;
+  display: none;
+}
+div.flex.items-center.justify-end.space-x-2 button:nth-of-type(2) span::after{
+  font-size: .875rem;
+  //content: 'Anggota';
+}
+div.flex.items-center.justify-end.space-x-2 button:nth-of-type(3) span{
+  font-size: 0rem;
+}
+div.flex.items-center.justify-end.space-x-2 button:nth-of-type(3) span::after{
+  font-size: .875rem;
+  content: 'Undang';
+}
+div[role*=status]{
+  font-size: 0px;
+}
+div[aria-live*=polite]::after{
+  font-size: 14px;
+  content: 'Sukses!';
+}
+
+div.flex.items-center.justify-end.space-x-2 button:nth-of-type(1)[id*=radix]{
+  display: flex;
+}
+div[role*=menuitem]:nth-of-type(3){
+  display: none;
+}
+div[role*=menuitem]:nth-of-type(4){
+  color: transparent;
+}
+div[role*=menuitem]:nth-of-type(4) a{
+  z-index: 30;
+  position: absolute;
+}
+div[role*=menuitem]:nth-of-type(4)::before{
+  color: #BAB9b6;
+  content: 'Profilku';
+}
+div[role*=menuitem]:nth-of-type(5){
+  display: none;
+}
+div[role*=menuitem]:nth-of-type(6){
+  color: transparent;
+}
+div[role*=menuitem]:nth-of-type(6) a{
+  z-index: 30;
+  position: absolute;
+}
+div[role*=menuitem]:nth-of-type(6)::before{
+  color: #BAB9b6;
+  content: 'Keluar';
+}
+
+
+div.flex.items-center.justify-end.space-x-2 button.inline-flex.items-center.justify-center.text-sm.font-medium.shadow{
+  display: flex;
+  visibility: visible;
+}
+
+div.flex.flex-col div.p-2.space-y-2.overflow-y-auto button{
+  display: none;
+}
+div.flex.flex-col div.p-2.space-y-2.overflow-y-auto button:nth-of-type(3){
+  display: flex;
+  font-size: 0px;
+}
+div.flex.flex-col div.p-2.space-y-2.overflow-y-auto button:nth-of-type(3)::after{
+  content: "Pelukis";
+  font-size: .875rem;
+}
+div.flex.flex-col div.p-2.space-y-2.overflow-y-auto button:nth-of-type(4){
+  display: flex;
+  font-size: 0px;
+}
+div.flex.flex-col div.p-2.space-y-2.overflow-y-auto button:nth-of-type(4)::after{
+  content: "Pengubah";
+  font-size: .875rem;
+}
+
+div.relative div.px-4 p.px-2.mt-2.text-center{
+  font-size: 0rem;
+  visibility: hidden;
+}
+
+div.relative div.px-4 p.px-2.mt-2.text-center::after{
+  visibility: visible;
+  font-size: 0.55rem;
+  content: 'MAGIKA - 2024 oleh Robby Indra';
+}
+
+h2.px-2.py-1.text-xs.font-bold.mt-4 {
+  font-size: 0rem;
+}
+h2.px-2.py-1.text-xs.font-bold.mt-4::after{
+  content: 'Lagi aktif nih';
+  font-size: .75rem;
+}
+
+h2.px-2.py-1.text-xs.font-bold.mt-4 span{
+  font-size: 0rem;
+}
+h2.px-2.py-1.text-xs.font-bold.mt-4 span::after{
+  content: 'Lihat semua';
+  font-size: .75rem;
+}
+
+h2.px-2.py-1.text-xs.font-bold {
+  font-size: 0rem;
+}
+h2.px-2.py-1.text-xs.font-bold::after{
+  content: 'Percakapanmu';
+  font-size: .75rem;
+}
+
+h2.px-2.py-1.text-xs {
+  font-size: 0;
+}
+h2.px-2.py-1.text-xs::after{
+  content: 'Beda hari | terbaru';
+  font-size: .75rem;
+}
+
+div.justify-center div.text-sm.flex.items-center.justify-center.cursor-pointer{
+  content: 'Bagikan';
+  display: none;
+  //font-size: 0rem;
+}
+
+div.text-sm.flex.items-center.justify-center.cursor-pointer{
+  font-size: 0rem;
+}
+
+div.text-sm.flex.items-center.justify-center.cursor-pointer::after{
+  font-size: .875rem;
+  content: 'Baru';
+}
+
+div#continue-button{
+  font-size: 0rem;
+}
+div#continue-button::after{
+  font-size: .875rem;
+  content: 'Lanjutkan Percakapan';
+}
+
+div.z-50.overflow-hidden.rounded-md.border.bg-popover.px-3.py-1\.5.text-xs.font-medium.text-popover-foreground.shadow-md.animate-in.fade-in-50{
+    font-size: 0rem;
+}
+div.z-50.overflow-hidden.rounded-md.border.bg-popover.px-3.py-1\.5.text-xs.font-medium.text-popover-foreground.shadow-md.animate-in.fade-in-50::after{
+    font-size: .75rem;
+    content: 'Eksekusi';
+}
+
+div.relative span.ml-2.cursor-pointer {
+  font-size: 0rem;
+}
+div.relative span.ml-2.cursor-pointer::after{
+  font-size: .875rem;
+  content: 'Unggah berkas';
+}
+
+div.relative span.cursor-pointer {
+  font-size: 0rem;
+}
+div.relative span.cursor-pointer::after{
+  font-size: .875rem;
+  content: 'Repositori Github';
+}
+
+div.flex.items-center button.inline-flex.items-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors.border-none {
+  font-size: 0rem;
+}
+div.flex.items-center button.inline-flex.items-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors.border-none:contains("BLACKBOX.AI"){
+  font-size: .875rem;
+  color: red;
+}
+div.flex.items-center button.inline-flex.justify-between.items-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors.border-none::before{
+  font-size: .875rem;
+  content: 'Magika v2';
+}
+div.flex.items-center button.inline-flex.items-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors.border-none svg {
+    display: none;
+}
+
+div[data-radix-popper-content-wrapper]{
+  left: 30px;
+}
+
+div#radix-\:rs\: {
+  display: none;
+}
+
+div.flex h2[id*=radix]{
+    font-size: 0rem;
+}
+div.flex h2[id*=radix]::after{
+  font-size: 1.125rem;
+  content: 'Keseruan Grup';
+}
+div.flex.flex-col.text-center p[id*=radix]{
+    font-size: 0rem;
+}
+div.flex.flex-col.text-center p[id*=radix]::after{
+  font-size: .875rem;
+  content: 'Di sini bisa pakai ai untuk mempermudah pembahasan yang sama dengan anggota lain';
+}
+
+div.fixed.z-50.top-30.right-4.right-sidebar p[id*=radix]{
+  font-size: .875rem;
+}
+div.fixed.z-50.top-30.right-4.right-sidebar p[id*=radix]::after{
+  font-size: 0rem;
+}
+
+form div.space-y-1.text-sm.rounded-md div.font-medium{
+  font-size: 0rem;
+}
+form div.space-y-1.text-sm.rounded-md div.font-medium::before{
+  font-size: .875rem;
+  content: 'Kasih Nama Grupnya';
+}
+
+div.flex.items-center.border-b.px-3 input.flex.h-11.w-full.rounded-md.bg-transparent.py-3.text-sm.outline-none::placeholder{
+  font-size: 0rem;
+}
+
+input.flex.h-9.w-full.rounded-md.border.border-input.bg-transparent.px-3.py-2.text-sm.shadow-sm.ring-offset-background.file\:border-0.file\:bg-transparent.file\:text-sm.file\:font-medium.placeholder\:text-muted-foreground.focus-visible\:outline-none.focus-visible\:ring-2.focus-visible\:ring-ring.focus-visible\:ring-offset-2.disabled\:cursor-not-allowed.disabled\:opacity-50.mt-4::placeholder {
+    font-size: 0rem;
+}
+
+div.flex button.items-center.justify-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors.flex.gap-2.mt-4 {
+    font-size: 0rem;
+    padding-left: 10px;
+}
+div.flex button.items-center.justify-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors.flex.gap-2.mt-4::after{
+    font-size: .875rem;
+    content: 'Bikin Grup';
+}
+
+div.absolute.w-5\/12 {
+    width: auto;
+}
+
+div.flex.items-center.justify-between.p-4 button.inline-flex.items-center.justify-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors {
+    left: 100px;
+    place-self: center;
+    padding-bottom: 40px;
+    scale: 1.5;
+}
+
+div.flex-col-reverse.flex.items-center.border-t.p-4 button.inline-flex.items-center.justify-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors {
+  font-size: 0rem;
+}
+
+div.flex-col-reverse.flex.items-center.border-t.p-4 button.inline-flex.items-center.justify-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors::after{
+  font-size: .875rem;
+  content: 'Tutup';
+}
+
+
+
+div.flex button.inline-flex.items-center.justify-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors[id*=radix]{
+    left: 100px;
+    place-self: center;
+    padding-bottom: 8px;
+    scale: 1;
+}
+div.flex button.inline-flex.items-center.justify-center.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors[id*=radix] img{
+    width: fit-content;
+    min-width: fit-content;
+}
+
+@media (min-width: 320px) {
+    .md\:block {
+        display: block;
+    }
+}
+
+.pl-4.items-center.gap-1.overflow-y-auto.text-area-send-space{
+  padding-left: 80px;
+}
+
+@media (min-width: 40px) {
+    .sm\:block {
+        display: block;
+    }
+}
+
+:is(.dark .dark\:bg-bgDarkSecondary) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(33 33 33 / 50%);
+    border-radius: 20px;
+}
+
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(1) label{
+  font-size: .0rem;
+}
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(1) label::after{
+  font-size: .875rem;
+  content: 'Nama Pengguna';
+}
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(1) p{
+  font-size: .0rem;
+}
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(1) input::placeholder{
+  color: transparent;
+}
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(1) p::after{
+  font-size: .775rem;
+  font-style: italic;
+  content: 'Kreasikan @NamaPengguna';
+  padding-left: 10px;
+}
+
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(2) label{
+  font-size: .0rem;
+}
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(2) label::after{
+  font-size: .875rem;
+  content: 'Nama Kamu';
+}
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(2) p{
+  font-size: .0rem;
+}
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(2) input::placeholder{
+  color: transparent;
+}
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(2) p::after{
+  font-size: .775rem;
+  font-style: italic;
+  content: 'Ini Nama Tampilan Kamu';
+  padding-left: 10px;
+}
+
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(3) label{
+  font-size: .0rem;
+}
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(3) label::after{
+  font-size: .875rem;
+  content: 'Bio Singkat';
+}
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(3) p{
+  font-size: .0rem;
+}
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(3) input::placeholder{
+  color: transparent;
+}
+div.m-auto.w-96 div.space-y-4 div.space-y-2:nth-of-type(3) p::after{
+  font-size: .775rem;
+  font-style: italic;
+  content: 'Kasih info tentangmu';
+  padding-left: 10px;
+}
+
+div.m-auto.w-96 div.space-y-4 button{
+  font-size: 0rem;
+}
+div.m-auto.w-96 div.space-y-4 button::after{
+  font-size: .875rem;
+  content: 'Perbarui Profil';
+}
+div.m-auto.w-96 div.space-y-4 a button{
+  font-size: 0rem;
+}
+div.m-auto.w-96 div.space-y-4 a button::after{
+  font-size: .875rem;
+  content: 'Lihat Profil';
+}
+
+div.mx-auto.grid.w-full.max-w-6xl.items-start.gap-6 div.grid.gap-6 div div{
+  font-size: 0rem;
+}
+div.mx-auto.grid.w-full.max-w-6xl.items-start.gap-6 div.grid.gap-6 div div::after{
+  font-size: .875rem;
+  content: 'tidak ada data yang dibagikan';
+}
+div.mx-auto.grid.w-full.max-w-6xl.items-start.gap-6 div.grid.gap-6 div a button{
+  font-size: 0rem;
+}
+div.mx-auto.grid.w-full.max-w-6xl.items-start.gap-6 div.grid.gap-6 div a button::after{
+  font-size: .875rem;
+  content: 'Percakapan Baru';
+}
+
+div#headingSubtext span button[data-third-party-email] {
+  font-size: 0rem;
+  visibility: hidden;
+}
+div#headingSubtext span button[data-third-party-email]::after{
+  font-size: 1rem;
+  content: 'Magika oleh byndrha';
+  visibility: visible;
+}
+
+div[jsname] div[jsslot] div div.dMNVAe{
+  font-size: 0rem;
+  visibility: hidden;
+}
+div[jsname] div[jsslot] div div.dMNVAe::after{
+  font-size: 1rem;
+  content: 'Robby Indra © 2024 dibuat dengan ❤️‍🔥';
+  visibility: visible;
+}
+
+span.flex.h-full.w-full.items-center.justify-center.rounded-full.bg-muted{
+  background-image: url('https://app-magika.vercel.app/icons/icon-192x192.png');
+  background-position: center center;
+  background-size: 110%;
+  font-size: 0;
+  background-color: transparent;
+  border-radius: 0px;
+}
+span.relative.flex.h-20.w-20.shrink-0.overflow-hidden.rounded-full img.aspect-square.h-full.w-full.object-cover{
+  display: none;
+}
+div.flex.justify-center.items-center span.relative.flex.h-20.w-20.shrink-0.overflow-hidden.rounded-full{
+  visibility: visible;
+  background-image: url('https://app-magika.vercel.app/icons/icon-192x192.png');
+  background-position: center center;
+  background-size: 110%;
+  width: 15rem;
+  height: 16rem;
+  border-radius: 0px;
+}
+
+div.w-full.flex-1 h1.mb-3.text-2xl.font-bold{
+  font-size: 0rem;
+}
+form.flex.flex-col.items-center.gap-4.space-y-3 div.w-full.flex-1 h1.mb-3.text-2xl.font-bold::after{
+  font-size: 1.5rem;
+  content: 'Masuk atau Daftar ?';
+}
+div.w-full.flex-1 div.w-full div label{
+  font-size: 0rem;
+}
+div.w-full.flex-1 div.w-full div label[for*=email]::after{
+  font-size: .785rem;
+  content: 'Ketik alamat surat elektronik mu';
+}
+div.w-full.flex-1.rounded-lg.border.bg-white.px-6.pb-4.pt-8 div.w-full div label[for*=password]::after{
+  font-size: .785rem;
+  content: 'Ketik kata-sandi mu';
+}
+div.w-full.flex-1.rounded-lg.border.bg-white.px-6.pb-4.pt-8 div.w-full div div.relative input::placeholder{
+  visibility: hidden;
+}
+div.w-full.flex-1.rounded-lg.border.bg-white button.my-4.flex.h-10.w-full.flex-row.items-center.justify-center.rounded-md.bg-zinc-900.p-2.text-sm{
+  font-size: 0rem;
+}
+div.w-full.flex-1.rounded-lg.border.bg-white button.my-4.flex.h-10.w-full.flex-row.items-center.justify-center.rounded-md.bg-zinc-900.p-2.text-sm::after{
+  font-size: .875rem;
+  content: 'Lanjutkan';
+}
+form a.flex[href*="signup"], a.flex[href*="login"] {
+  font-size: 0rem;
+}
+form a.flex[href*="signup"]::before {
+  content: "belum punya akun?";
+  font-size: .785rem;
+}
+
+form a.flex[href*="signup"] div::after {
+  content: "DAFTAR";
+  font-size: .785rem;
+}
+
+form a.flex[href*="login"]::before {
+  content: "sudah punya akun?";
+  font-size: .785rem;
+}
+
+form a.flex[href*="login"] div::after {
+  content: "MASUK";
+  font-size: .785rem;
+}
+
+header.sticky div.flex.items-center.justify-end.space-x-2 button{
+  display: none;
+}
+
+div.flex div.grid.grid-cols-3.items-center.gap-4 span{
+  font-size: 0rem;
+}
+div.flex div.grid.grid-cols-3.items-center.gap-4 span::after{
+  font-size: .875rem;
+  content: 'Hasilkan:';
+}
+div.flex div.grid.grid-cols-3.items-center.gap-4 button span{
+  font-size: .875rem;
+}
+div.flex div.grid.grid-cols-3.items-center.gap-4 button span::after{
+  font-size: 0rem;
+}
+
+div[role*="presentation"] p.text-slate-700.text-lg{
+  font-size: 0rem;
+}
+div[role*="presentation"] p.text-slate-700.text-lg::after{
+  font-size: 1.125rem;
+  content: 'tekan untuk unggah berkas';
+}
+
+div.flex.flex-col.flex-1.overflow-hidden div.flex-1.overflow-auto.custom-scrollbar{
+  max-height: 75%;
+}
+
+div.flex-1.overflow-auto .p-8.text-center p.text-sm.text-muted-foreground{
+  font-size: 0rem;
+}
+div.flex-1.overflow-auto .p-8.text-center p.text-sm.text-muted-foreground::after{
+  font-size: .872rem;
+  content: 'tangkapan layar';
+}
+div.group[class*="user-message"] div.ml-4.flex-1::before{
+  content: "Magika";
+  font-size: 0px;
+  justify-content: flex-end;
+  margin-right: 10px;
+  width: 40px;
+  min-width: 40px;
+  height: 70px;
+  display: inline-flex;
+  background-image: url("https://raw.githubusercontent.com/byndrha/magika/refs/heads/main/Astro-L.png") !important;
+  background-size: 3rem;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+div.group[class*="user-message"] div.ml-4.flex-1 div.prose{
+  width: 90%;
+}
+
+div.group.relative.mb-4.flex.items-start.md\:-ml-12[class*="user-message"] div.ml-4.flex-1{
+  display: inline-flex;
+}
+div.group.relative.mb-4.flex.items-start.md\:-ml-12 div.ml-4.flex-1 div.response-speaker{
+  display: inline-flex;
+  min-width: 100px;
+}
+div.group.relative.mb-4.flex.items-start.md\:-ml-12 div.ml-4.flex-1 div.response-speaker::after{
+  content: "Magika";
+  font-size: 0px;
+  justify-content: flex-end;
+  margin-right: 10px;
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  display: inline-flex;
+  background-image: url("https://app-magika.vercel.app/icons/icon-192x192.png") !important;
+  background-size: 3rem;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+div.absolute.left-0.top-4.md\:left-4 div.flex.gap-1 button:nth-of-type(1){
+  display: none;
+}
+div.landing-center{
+  display: none;
+}
+div.space-y-2.px-2 h2.px-1.py-1.text-xs.font-bold.mt-4{
+  font-size: 0px;
+}
+div.space-y-2.px-2 h2.px-1.py-1.text-xs.font-bold.mt-4::after{
+  font-size: .785rem;
+  content: "Riwayat Pengubah";
+}
+
+
+body *{
+  scrollbar-width: none;
+}
+[data-slot*="inner-wrapper"] textarea[data-slot*="input"]::placeholder{
+  color: transparent;
+}
+section[role*=dialog] header.flex h3{
+  font-size: 0px;
+}
+section[role*=dialog] header.flex h3::after{
+  font-size: 20px;
+  content: 'Konfigurasi';
+}
+section[role*=dialog] header.flex span.text-neutral-400.text-sm.font-light{
+    font-size: 0rem;
+}
+section[role*=dialog] header.flex span p{
+  font-size: 0px;
+}
+section[role*=dialog] header.flex span p::after{
+  font-size: .875rem;
+  content: 'Pilih fokus otak Magika yang cocok';
+}
+section[role*=dialog] header.flex span ul li{
+  font-size: 0px;
+}
+section[role*=dialog] header.flex span ul li:nth-of-type(1)::after{
+  font-size: .875rem;
+  content: open-quote	"Pengkodean Umum"close-quote " - Ideal untuk memulai proyek pengkodean umum dari awal. [GenCA]";
+}
+section[role*=dialog] header.flex span ul li:nth-of-type(3)::after{
+  font-size: .875rem;
+  content: open-quote	"Basis Repositori"close-quote " - Ideal untuk bekerja dengan repositori atau file yang sudah ada. [RepA]";
+}
+section[role*=dialog] header.flex span ul li:nth-of-type(2)::after{
+  font-size: .875rem;
+  content: open-quote	"Hanya Antarmuka"close-quote " - Spesialis dalam membangun komponen UI dan aplikasi dengan React, Next.js, dan Tailwind CSS. [FrEA]";
+}
+div#\:r1h\: div.mb-4 label{
+  display: none;
+}
+div#\:r1h\: div.mb-4 div.flex.flex-col.gap-2.mt-6 button{
+ font-size: 0px; 
+}
+div#\:r1h\: div.mb-4 div.flex.flex-col.gap-2.mt-6 button:nth-of-type(1)::after{
+  content: "Pengkodean Umum";
+  font-size: 1rem;
+}
+div#\:r1h\: div.mb-4 div.flex.flex-col.gap-2.mt-6 button:nth-of-type(2)::after{
+  content: "Hanya Antarmuka";
+  font-size: 1rem;
+}
+
+div[data-slot*="input-wrapper"] label[data-slot*="label"]{
+  visibility: hidden;
+}
+div[data-slot*="input-wrapper"] label[data-slot*="label"]::before{
+  visibility: visible;
+  content: 'Fokus Otak Magika';
+}
+div[data-slot*="input-wrapper"] div input[data-slot*="input"]::placeholder{
+  visibility: hidden;
+}
+section[role*=dialog] footer.flex
+button{
+  font-size: 0rem;
+}
+section[role*=dialog] footer.flex
+button::after{
+  font-size: .875rem;
+  content: "Lanjutkan";
+}
+section[role*=dialog] footer.flex
+button:nth-of-type(1)::after{
+  font-size: .875rem;
+  content: "Tutup";
+}
+div.flex.flex-col.min-h-0.w-full div.flex.grow.items-center.justify-center div.flex.flex-col.items-center.text-neutral-400{
+  font-size: 0px;
+}
+div.flex.flex-col.min-h-0.w-full div.flex.grow.items-center.justify-center div.flex.flex-col.items-center.text-neutral-400::after{
+  content: "belum ada berkas dipilih";
+  font-size: .875rem;
+}
+
+
+div[data-slot*=base] ul[data-slot="listbox"] li[role*="option"] span:nth-of-type(1){
+  visibility: unset;
+}
+div[data-slot*=base] ul[data-slot="listbox"] li[role*="option"] span:nth-of-type(1)::before{
+  display: none;
+}
+div[data-slot*=base] ul[data-slot*="list"] li span:nth-of-type(1){
+  visibility: hidden;
+}
+div[data-slot*=base] ul[data-slot*="list"] li:nth-of-type(1) span:nth-of-type(1)::before{
+  content: 'Pengkodean Umum';
+  visibility: visible;
+}
+div[data-slot*=base] ul[data-slot*="list"] li:nth-of-type(2) span:nth-of-type(1)::before{
+  content: 'Basis Repositori';
+  visibility: visible
+}
+div[data-slot*=base] ul[data-slot*="list"] li:nth-of-type(3) span:nth-of-type(1)::before{
+  content: 'Antarmukka Saja';
+  visibility: visible
+}
+
+div.flex.flex-col.h-full.bg-neutral-800 div.flex.items-center.gap-2.border-b.border-neutral-600.text-sm.px-4.py-2.bg-neutral-900{
+  font-size: 0rem;
+}
+div.flex.flex-col.h-full.bg-neutral-800 div.flex.items-center.gap-2.border-b.border-neutral-600.text-sm.px-4.py-2.bg-neutral-900::after {
+  font-size: .875rem;
+  content: 'bb X Magika';
+}
+div.flex.items-center span.text-sm.text-stone-400{
+  display: none;
+}
+.flex.items-center.gap-2.px-4.py-2.text-sm.border-b.border-neutral-600.bg-neutral-900{
+  font-size: 0rem;
+}
+.flex.items-center.gap-2.px-4.py-2.text-sm.border-b.border-neutral-600.bg-neutral-900::after{
+  font-size: .875rem;
+  content: 'Terminal (hanya-baca)';
+}
+.flex.items-center.gap-2.px-4.py-2.text-sm.border-b.border-neutral-600.bg-neutral-900 svg{
+  font-size: .875rem;
+}
+div[role*=dialog] .flex.flex-col.space-y-2.text-center.sm\:text-left h2{
+    font-size: 0rem;
+}
+div[role*=dialog] .flex.flex-col.space-y-2.text-center.sm\:text-left h2::after{
+    font-size: 1.125rem;
+    content: 'Sesi Sebelumnya';
+}
+div[id*=radix] div button.bg-default[type*=button]{
+  font-size: 0rem;
+}
+div[id*=radix] div button.bg-default[type*=button]::after{
+  font-size: .875rem;
+  content: 'Mulai sesi baru';
+}
+div[id*=radix] div p:nth-of-type(1){
+  visibility: hidden;
+}
+div[id*=radix] div p:nth-of-type(1)::before{
+  visibility: visible;
+  content: 'Hari ini!';
+}
+div.flex.items-center.gap-4 div.flex.items-center.gap-3 button:nth-of-type(2){
+  font-size: 0px;
+}
+div.flex.items-center.gap-4 div.flex.items-center.gap-3 button:nth-of-type(2)::after{
+  content: "Tugas Baru";
+  font-size: .875rem;
+}
+div.flex.items-center.gap-4 div.flex.items-center.gap-3 button:nth-of-type(3){
+  font-size: 0px;
+}
+div.flex.items-center.gap-4 div.flex.items-center.gap-3 button:nth-of-type(3)::after{
+  content: "Deploy Layanan";
+  font-size: .875rem;
+}
+div#\:r1e\: div[data-slot*="base"]:nth-of-type(1) div[data-slot*="input-wrapper"] label[data-slot*="label"]::before{
+  content: "Perintah Membangun";
+}
+div#\:r1e\: div[data-slot*="base"]:nth-of-type(2) div[data-slot*="input-wrapper"] label[data-slot*="label"]::before{
+  content: "Perintah Mulai";
+}
+div#\:r1e\: div[data-slot*="base"]:nth-of-type(4) div[data-slot*="input-wrapper"] label[data-slot*="label"]::before{
+  content: "Nomor Port";
+}
+@media (max-width: 600px) {
+  div.min-w-\[500px\].rounded-xl.overflow-hidden.border.border-neutral-600 {
+    height: 50%;
+}
+div.flex.flex-col.overflow-hidden.min-w-\[500px\].flex-1 {
+    height: 50%;
+}
+  .flex.grow.h-full.min-h-0.min-w-0.px-3.pt-3 {
+    display: block;
+}
+div div.min-w-\[500px\].rounded-xl.overflow-hidden.border.border-neutral-600 {
+    width: auto !important;
+    min-width: auto;
+}
+.flex.flex-col.overflow-hidden.min-w-\[500px\].flex-1 {
+    width: auto;
+    min-width: auto;
+}
+div.flex-1.flex.flex-col.relative.min-h-0.bg-neutral-900 div.overflow-y-auto.p-3 {
+    height: 100%;
+}
+div.relative div.flex.justify-start.gap-2.p-2 {
+    padding: 0px;
+}
+div.flex.flex-col.gap-3 div.markdown-body.p-3.text-white.max-w-\[90\%\].overflow-y-auto.rounded-lg.bg-neutral-900 {
+    height: fit-content;
+}
+.min-h-72.rounded-xl.border.border-neutral-600.bg-neutral-800.flex.flex-col.overflow-hidden {
+    height: 20px;
+    //min-height: 30%;
+    max-height: 30%;
+}
+div.min-h-72.rounded-xl.border.border-neutral-600.bg-neutral-800.flex-1 {
+    //min-height: inherit;
+    max-height: 20%;
+}
+.flex.w-full.p-4.bg-neutral-900.items-center.shrink-0.justify-between {
+        z-index: 40;
+        position: fixed;
+        max-width: 90%;
+        top: 50px;
+        min-height: 110px;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+div.flex div.bg-neutral-900.grow.p-2.flex.min-h-0 {
+    min-height: 80px !important;
+    height: 90px !important;
+}
+div.relative div.bg-neutral-900.h-full.border-r-1.border-r-neutral-600.flex.flex-col.transition-all.ease-soft-spring.overflow-auto {
+    max-width: 150px;
+    min-width: 150px;
+}
+.absolute.bottom-2.left-0.right-0.flex.items-center.justify-center {
+    background-color: transparent !important;
+}
+}
